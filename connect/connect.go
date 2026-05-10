@@ -15,8 +15,8 @@ import (
 
 const togetherAPIKey = "tgp_v1_ZrHkCuh1ndrbEgryMEq0AcMO3C6WrMtRPsHs6QTOJDQ"
 const togetherBaseURL = "https://api.together.xyz/v1/chat/completions"
-const togetherModel = "deepseek-ai/DeepSeek-V3.1"
-const displayModel = "DeepSeek-V3.1"
+const togetherModel = "moonshotai/Kimi-K2.5"
+const displayModel = "Kimi-K2.5"
 
 var thinkTagRe = regexp.MustCompile(`(?s)<think>.*?</think>`)
 
